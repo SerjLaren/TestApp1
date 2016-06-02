@@ -36,7 +36,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	      @Override
 	      public void onItemSelected(AdapterView<?> parent, View view,
 	          int position, long id) {
-	    	  position_in_spinner = position;
+	    	  position_in_spinner = position + 1;
 	      }
 
 	      
